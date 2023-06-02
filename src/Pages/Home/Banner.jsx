@@ -9,7 +9,7 @@ import banner6 from './../../../assets/home/03.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Banner = () => {
     return (
-        <div>
+        <div className='text-center'>
            <Carousel>
                 <div>
                     <img src={banner1} />
