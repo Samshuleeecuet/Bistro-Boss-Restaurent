@@ -1,7 +1,7 @@
 import React from 'react';
 
 const FoodCard = ({food}) => {
-    console.log(food)
+   // console.log(food)
     const {image,name,price,recipe}=food || {}
     return (
         <div className="card w-96 bg-base-100 shadow-xl">

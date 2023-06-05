@@ -22,7 +22,7 @@ const ShopTab = () => {
           <Tab onClick={()=>handleLoadData('pizza')}>PIZZA</Tab>
           <Tab onClick={()=>handleLoadData('soup')}>SOUPS</Tab>
           <Tab onClick={()=>handleLoadData('dessert')}>DESSERTS</Tab>
-          <Tab onClick={()=>handleLoadData('drink')}>DRINKS</Tab>
+          <Tab onClick={()=>handleLoadData('drinks')}>DRINKS</Tab>
         </TabList>
     
         <TabPanel>
